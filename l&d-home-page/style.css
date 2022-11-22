@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #131635;
+    --secondary-color: #EE1C25;
+    --light-blue: #1E234E;
+    --white-color: #fff;
+    --heading-font: 40px;
+    --desc-font: 16px;
+    --card-heading: 28px;
+    --card-desc: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}

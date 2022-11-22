@@ -1,0 +1,26 @@
+
+.navbar-brand {
+    height: auto;
+    width: 180px;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    color: var(--white-color) !important;
+    font-weight: 500 !important;
+}
+
+.navbar-nav .active,
+.navbar-nav a:hover {
+    color: var(--secondary-color) !important;
+    text-decoration: 5px underline solid var(--secondary-color);
+}
+
+.navbar-nav .active {
+    font-weight: 500 !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+    /* outline: invert; */
+}

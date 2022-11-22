@@ -1,0 +1,104 @@
+#learning-section {
+    background-color: var(--primary-color);
+}
+
+#learning-section .row {
+    margin-top: 100px !important;
+    padding-bottom: 50px;
+}
+
+#learning-section .heading .red-text {
+    color: var(--white-color);
+    font-size: var(--heading-font);
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+#learning-section .heading .red-text::after {
+    content: '';
+    height: 7px;
+    width: 25%;
+    background: var(--secondary-color);
+    position: absolute;
+    /* left: 25%; */
+    top: 100%;
+}
+
+#learning-section .heading .content {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#learning-section .box {
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    /* transition: 0.2s; */
+}
+#learning-section .box:hover {
+    border: 1px solid var(--secondary-color);
+}
+
+#learning-section .box .heading {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#learning-section .box .content {
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+#learning-section .fa {
+    font-size: 80px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    #learning-section .box .heading {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #learning-section .box .heading {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    #learning-section .box .content {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #learning-section .heading .red-text {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 992px) {
+    #learning-section .heading .red-text::after {
+        width: 50%;
+        top: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #learning-section .heading .red-text::after {
+        width: 25%;
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #learning-section .heading .red-text::after {
+        height: 4px;
+        width: 50%;
+        top: 120%;
+    }
+    #learning-section .row {
+        margin-top: 50px !important;
+        padding-bottom: 0px;
+    }
+}

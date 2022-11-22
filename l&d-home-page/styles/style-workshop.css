@@ -1,0 +1,203 @@
+#workshop-section .card {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    position: relative;
+}
+
+#workshop-section .heading {
+    font-size: 40px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    padding-right: 100px;
+}
+
+#workshop-section .content {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.workshop-heading {
+    color: var(--white-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.workshop-desc {
+    color: var(--white-color);
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.star-rating .fa {
+    color: #E9DF00;
+    opacity: 0.5;
+}
+
+.rating {
+    color: var(--white-color);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.star-rating {
+    margin-bottom: 20px;
+}
+
+#workshop-section .card-body p:nth-child(1) {
+    margin-bottom: 0px;
+}
+
+#workshop-section .btn {
+    background-color: var(--white-color);
+    opacity: 0.9;
+    color: var(--primary-color);
+    font-weight: 700;
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 3px solid var(--secondary-color);
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+#workshop-section .card:hover {
+    cursor: pointer;
+}
+
+#workshop-section .card:hover .btn {
+    opacity: 1;
+}
+
+#workshop-section .card-img-top {
+    transition: opacity .35s ease;
+}
+
+#workshop-section .card:hover .card-img-top {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1400px) {
+    .workshop-heading {
+        font-size: 20px;
+    }
+
+    #workshop-section .btn {
+        left: 22%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .workshop-heading {
+        font-size: 16px;
+        margin-bottom: 10px !important;
+    }
+
+    #workshop-section .btn {
+        left: 20%;
+    }
+
+    .workshop-desc {
+        font-size: 14px;
+    }
+
+    .rating {
+        font-size: 14px;
+    }
+    #workshop-section .heading {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card-row {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    #workshop-section .btn {
+        left: 22%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-row {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    #workshop-section .btn {
+        left: 10%;
+    }
+    #workshop-section .heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-row {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    #workshop-section .btn {
+        left: 25%;
+    }
+    #workshop-section .heading {
+        font-size: 20px;
+    }
+}
+
+/* slider */
+#testimonial_area .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#testimonial_area .owl-prev,
+#testimonial_area .owl-next {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #0a69ed;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+}
+
+#testimonial_area .owl-prev {
+    left: -60px;
+    top: -30px;
+}
+
+#testimonial_area .owl-next {
+    right: -60px;
+    top: -30px;
+}
+
+@media only screen and (max-width: 991px) {
+    .owl-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .owl-nav {
+        display: none;
+    }
+}
+/* 
+#workshop-section .owl-item {
+    margin-right: 0px !important;
+    width: 384px !important;
+    /* display: flex;
+    justify-content: center; */
+
+
+/* #workshop-section .row {
+    padding-right: 30px !important;
+    padding-left: 60px !important;
+} */
